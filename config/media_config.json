@@ -1,0 +1,6 @@
+{
+    "url": "https://www.instagram.com/p/{shortcode}/?__a=1&__d=dis",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0)"
+    }
+}
