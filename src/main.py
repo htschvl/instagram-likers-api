@@ -20,15 +20,14 @@ async def fetch_and_process_likers(shortcode: str) -> None:
                 print("No likers found for the media.")
                 return
             
-            # Formatar os dados dos likers
+
             formatted_data: Dict[int, Dict[str, str]] = {}
             sorted_likers = sorted(likers, key=lambda liker: liker['username'])
             for index, liker in enumerate(sorted_likers, start=1):
                 username = liker.get('username', 'unknown')
                 full_name = liker.get('full_name', 'unknown')
                 formatted_data[index] = {username: full_name}
-            
-            # Salvar os dados formatados usando o JSON handler
+    
             save_json(formatted_data, 'likers_info.json')
             print("Likers info saved successfully.")
     
@@ -36,7 +35,7 @@ async def fetch_and_process_likers(shortcode: str) -> None:
         print(f"Error in processing likers: {process_error}")
 
 def run_main_flow() -> None:
-    shortcode: str = "C4RIDmqxC4X"  # Exemplo de shortcode
+    shortcode: str = "C1EycqwMgMB"  # Valid shortcode as an example 
     asyncio.run(fetch_and_process_likers(shortcode))
 
 if __name__ == "__main__":
