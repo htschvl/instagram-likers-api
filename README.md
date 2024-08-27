@@ -54,7 +54,33 @@ instagram-likers-api/
    pip install -r requirements.txt
    ```
 
-3. Configure your Instagram API credentials by placing them in the `config/` directory.
+3. Configure your Instagram API credentials by filling the .env example
+
+### How to Get Credentials
+
+1. Open a new browser tab to reset all session data.
+2. Navigate to your Instagram profile.
+3. Open the browser developer console (usually by pressing `F12` or `Ctrl+Shift+I`).
+4. Go to the "Network" tab in the developer console.
+5. Return to your Instagram feed.
+6. Scroll down the feed a bit to load more posts.
+7. Click on the "Likes" link/button under one of the posts.
+8. Look for a "query" item.
+
+## Query Example
+
+Here is an example of the query process:
+
+![Query Process](./media/query.jpg) 
+
+9. Your credentials should be both on "header" and "cookies". Make sure they match the description on .env.example
+
+## Credentials Example
+
+Here is an example of what's inside the Query Process and the data you need.
+
+![Data](./media/data.png) 
+
 
 ### Usage
 
