@@ -12,8 +12,7 @@ This project was developed as a means to study the Instagram API and to further 
 - **Fetch Likers**: Retrieve a list of users who liked a specific Instagram post.
 - **Data Cleanup**: Scripts for cleaning and organizing retrieved data.
 - **Output Storage**: Store the results in structured formats for further analysis.
-- **Legacy Insights**: Documentation and scripts reflecting the evolution of the API and future considerations.
-
+- **Legacy Insights**: Previous versions of the script, trying to get as atomic as possible. General study of Instagram's API.
 ## Project Structure
 
 ```plaintext
