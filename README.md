@@ -66,14 +66,13 @@ instagram-likers-api/
 6. Scroll down the feed a bit to load more posts.
 7. Click on the "Likes" link/button under one of the posts.
 8. Look for a "query" item.
+9. Your credentials should be both on "header" and "cookies". Make sure they match the description on .env.example
 
 ## Query Example
 
 Here is an example of the query process:
 
 ![Query Process](./media/query.jpg) 
-
-9. Your credentials should be both on "header" and "cookies". Make sure they match the description on .env.example
 
 ## Credentials Example
 
